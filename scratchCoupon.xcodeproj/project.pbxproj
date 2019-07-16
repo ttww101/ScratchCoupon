@@ -1,0 +1,1095 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1823FBD022CB012B00C40DF6 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823FBCF22CB012B00C40DF6 /* TabbarViewController.swift */; };
+		1823FC0022CB44CF00C40DF6 /* HomeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823FBFF22CB44CF00C40DF6 /* HomeTable.swift */; };
+		1823FC0222CB454F00C40DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823FC0122CB454F00C40DF6 /* LaunchScreen.storyboard */; };
+		1823FC0422CB498500C40DF6 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823FC0322CB498500C40DF6 /* BannerCell.swift */; };
+		1823FC0622CB4DE400C40DF6 /* ScratchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1823FC0522CB4DE400C40DF6 /* ScratchCell.swift */; };
+		182FAD2222CB5B94004B06A8 /* MeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAD2122CB5B94004B06A8 /* MeTable.swift */; };
+		182FADE222CC932D004B06A8 /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADE122CC932D004B06A8 /* MyExtension.swift */; };
+		182FAE1322CC939D004B06A8 /* ReceiveRedEnvelopesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADE722CC939C004B06A8 /* ReceiveRedEnvelopesViewController.swift */; };
+		182FAE1422CC939D004B06A8 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADE822CC939C004B06A8 /* NotificationViewController.swift */; };
+		182FAE1522CC939D004B06A8 /* NotificationSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADEA22CC939C004B06A8 /* NotificationSwitchTableViewCell.swift */; };
+		182FAE1622CC939D004B06A8 /* NotificationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADEB22CC939C004B06A8 /* NotificationHeaderView.swift */; };
+		182FAE1722CC939D004B06A8 /* NotifcationItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADEC22CC939C004B06A8 /* NotifcationItemTableViewCell.swift */; };
+		182FAE1822CC939D004B06A8 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADEF22CC939C004B06A8 /* MeViewController.swift */; };
+		182FAE1922CC939D004B06A8 /* BuyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADF022CC939C004B06A8 /* BuyListViewController.swift */; };
+		182FAE1A22CC939D004B06A8 /* MeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADF222CC939C004B06A8 /* MeTableView.swift */; };
+		182FAE1B22CC939D004B06A8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADF322CC939C004B06A8 /* LoginView.swift */; };
+		182FAE1C22CC939D004B06A8 /* OneDollarDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADF722CC939C004B06A8 /* OneDollarDetailTableViewController.swift */; };
+		182FAE1D22CC939D004B06A8 /* OneDollarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADF822CC939C004B06A8 /* OneDollarCollectionViewController.swift */; };
+		182FAE1E22CC939D004B06A8 /* OneDollarGoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADFA22CC939C004B06A8 /* OneDollarGoodCollectionViewCell.swift */; };
+		182FAE1F22CC939D004B06A8 /* OneDollarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADFB22CC939C004B06A8 /* OneDollarLayout.swift */; };
+		182FAE2022CC939D004B06A8 /* OneDollarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FADFC22CC939C004B06A8 /* OneDollarCollectionView.swift */; };
+		182FAE2122CC939D004B06A8 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0022CC939C004B06A8 /* PayViewController.swift */; };
+		182FAE2222CC939D004B06A8 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0122CC939C004B06A8 /* CartTableViewController.swift */; };
+		182FAE2322CC939D004B06A8 /* CartGoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0322CC939C004B06A8 /* CartGoodTableViewCell.swift */; };
+		182FAE2422CC939D004B06A8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0622CC939C004B06A8 /* HomeViewModel.swift */; };
+		182FAE2522CC939D004B06A8 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0822CC939C004B06A8 /* HomeCollectionViewController.swift */; };
+		182FAE2622CC939D004B06A8 /* HomeHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0A22CC939C004B06A8 /* HomeHeaderCollectionReusableView.swift */; };
+		182FAE2722CC939D004B06A8 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0B22CC939C004B06A8 /* BannerCollectionViewCell.swift */; };
+		182FAE2822CC939D004B06A8 /* HomeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE0C22CC939C004B06A8 /* HomeLayout.swift */; };
+		182FAE2922CC939D004B06A8 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE1022CC939C004B06A8 /* ShopViewController.swift */; };
+		182FAE2A22CC939D004B06A8 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE1122CC939C004B06A8 /* ShopViewModel.swift */; };
+		182FAE4422CC93BB004B06A8 /* GoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3122CC93BB004B06A8 /* GoodModel.swift */; };
+		182FAE4522CC93BB004B06A8 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3222CC93BB004B06A8 /* OrderModel.swift */; };
+		182FAE4622CC93BB004B06A8 /* OneDollarGoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3322CC93BB004B06A8 /* OneDollarGoodModel.swift */; };
+		182FAE4722CC93BB004B06A8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3422CC93BB004B06A8 /* UserModel.swift */; };
+		182FAE4822CC93BB004B06A8 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3522CC93BB004B06A8 /* CartModel.swift */; };
+		182FAE4922CC93BB004B06A8 /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3622CC93BB004B06A8 /* CollectionModel.swift */; };
+		182FAE4A22CC93BB004B06A8 /* BidManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3722CC93BB004B06A8 /* BidManager.swift */; };
+		182FAE4B22CC93BB004B06A8 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3922CC93BB004B06A8 /* SearchTextField.swift */; };
+		182FAE4C22CC93BB004B06A8 /* ShopCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3A22CC93BB004B06A8 /* ShopCollectionView.swift */; };
+		182FAE4D22CC93BB004B06A8 /* DecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3B22CC93BB004B06A8 /* DecorationView.swift */; };
+		182FAE4E22CC93BB004B06A8 /* GoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3C22CC93BB004B06A8 /* GoodCollectionViewCell.swift */; };
+		182FAE5022CC93BB004B06A8 /* SearchableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE3F22CC93BB004B06A8 /* SearchableNavigationController.swift */; };
+		182FAE5122CC93BB004B06A8 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE4022CC93BB004B06A8 /* SearchResultViewController.swift */; };
+		182FAE5222CC93BB004B06A8 /* GoodDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE4122CC93BB004B06A8 /* GoodDetailTableViewController.swift */; };
+		182FAE6522CCA219004B06A8 /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE6322CCA219004B06A8 /* MyService.swift */; };
+		182FAE6622CCA219004B06A8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE6422CCA219004B06A8 /* Network.swift */; };
+		182FAE6922CCB4EA004B06A8 /* JXScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE6822CCB4E9004B06A8 /* JXScratchView.swift */; };
+		182FAE6B22CCB669004B06A8 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FAE6A22CCB668004B06A8 /* CardDetailViewController.swift */; };
+		187B0A0322C9A19A0018030F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0A0222C9A19A0018030F /* AppDelegate.swift */; };
+		187B0A0522C9A19A0018030F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0A0422C9A19A0018030F /* ViewController.swift */; };
+		187B0A0A22C9A19C0018030F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187B0A0922C9A19C0018030F /* Assets.xcassets */; };
+		187B0A0D22C9A19C0018030F /* MyMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187B0A0B22C9A19C0018030F /* MyMain.storyboard */; };
+		187B0A1522C9AC8F0018030F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0A1422C9AC8F0018030F /* HomeViewController.swift */; };
+		187B0A1722C9ACF40018030F /* HomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0A1622C9ACF40018030F /* HomeCollectionView.swift */; };
+		187B0A1922C9B11C0018030F /* RewardCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0A1822C9B11C0018030F /* RewardCardModel.swift */; };
+		187B0A1B22C9B39A0018030F /* WiningHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0A1A22C9B39A0018030F /* WiningHighlight.swift */; };
+		18FCAEDE22CDB5240078A16D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEDD22CDB5240078A16D /* NavigationController.swift */; };
+		18FCAEE522CDCC2F0078A16D /* RankTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEE422CDCC2F0078A16D /* RankTable.swift */; };
+		18FCAEE722CDE24A0078A16D /* RankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEE622CDE24A0078A16D /* RankCell.swift */; };
+		18FCAEE922CEFB920078A16D /* JXMarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEE822CEFB920078A16D /* JXMarqueeView.swift */; };
+		18FCAEEB22CEFC770078A16D /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEEA22CEFC770078A16D /* RankView.swift */; };
+		18FCAEED22CEFDDE0078A16D /* MarqueeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEEC22CEFDDE0078A16D /* MarqueeCell.swift */; };
+		18FCAEEF22CF29040078A16D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEEE22CF29040078A16D /* File.swift */; };
+		18FCAEF222CF53480078A16D /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEF122CF53480078A16D /* RankViewController.swift */; };
+		18FCAEF422DC18190078A16D /* RewardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEF322DC18190078A16D /* RewardRowView.swift */; };
+		18FCAEF622DC1F780078A16D /* UserStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEF522DC1F780078A16D /* UserStateModel.swift */; };
+		18FCAEF822DC20F10078A16D /* ScratchBtnStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEF722DC20F10078A16D /* ScratchBtnStackView.swift */; };
+		18FCAF0022DD68130078A16D /* CouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAEFF22DD68130078A16D /* CouponModel.swift */; };
+		18FCAF0222DD8D280078A16D /* MeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCAF0122DD8D280078A16D /* MeCell.swift */; };
+		6C41164903A03FA1992A26FF /* Pods_scratchCoupon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5814533935FC7150304FC2A8 /* Pods_scratchCoupon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1823FBCF22CB012B00C40DF6 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		1823FBFF22CB44CF00C40DF6 /* HomeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTable.swift; sourceTree = "<group>"; };
+		1823FC0122CB454F00C40DF6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1823FC0322CB498500C40DF6 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		1823FC0522CB4DE400C40DF6 /* ScratchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCell.swift; sourceTree = "<group>"; };
+		182FAD2122CB5B94004B06A8 /* MeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTable.swift; sourceTree = "<group>"; };
+		182FADE122CC932D004B06A8 /* MyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
+		182FADE722CC939C004B06A8 /* ReceiveRedEnvelopesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveRedEnvelopesViewController.swift; sourceTree = "<group>"; };
+		182FADE822CC939C004B06A8 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		182FADEA22CC939C004B06A8 /* NotificationSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		182FADEB22CC939C004B06A8 /* NotificationHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHeaderView.swift; sourceTree = "<group>"; };
+		182FADEC22CC939C004B06A8 /* NotifcationItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifcationItemTableViewCell.swift; sourceTree = "<group>"; };
+		182FADEF22CC939C004B06A8 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		182FADF022CC939C004B06A8 /* BuyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyListViewController.swift; sourceTree = "<group>"; };
+		182FADF222CC939C004B06A8 /* MeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableView.swift; sourceTree = "<group>"; };
+		182FADF322CC939C004B06A8 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		182FADF722CC939C004B06A8 /* OneDollarDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDollarDetailTableViewController.swift; sourceTree = "<group>"; };
+		182FADF822CC939C004B06A8 /* OneDollarCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDollarCollectionViewController.swift; sourceTree = "<group>"; };
+		182FADFA22CC939C004B06A8 /* OneDollarGoodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDollarGoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		182FADFB22CC939C004B06A8 /* OneDollarLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDollarLayout.swift; sourceTree = "<group>"; };
+		182FADFC22CC939C004B06A8 /* OneDollarCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDollarCollectionView.swift; sourceTree = "<group>"; };
+		182FAE0022CC939C004B06A8 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		182FAE0122CC939C004B06A8 /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		182FAE0322CC939C004B06A8 /* CartGoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartGoodTableViewCell.swift; sourceTree = "<group>"; };
+		182FAE0622CC939C004B06A8 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		182FAE0822CC939C004B06A8 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		182FAE0A22CC939C004B06A8 /* HomeHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		182FAE0B22CC939C004B06A8 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		182FAE0C22CC939C004B06A8 /* HomeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLayout.swift; sourceTree = "<group>"; };
+		182FAE1022CC939C004B06A8 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		182FAE1122CC939C004B06A8 /* ShopViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		182FAE3122CC93BB004B06A8 /* GoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodModel.swift; sourceTree = "<group>"; };
+		182FAE3222CC93BB004B06A8 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		182FAE3322CC93BB004B06A8 /* OneDollarGoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDollarGoodModel.swift; sourceTree = "<group>"; };
+		182FAE3422CC93BB004B06A8 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		182FAE3522CC93BB004B06A8 /* CartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		182FAE3622CC93BB004B06A8 /* CollectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
+		182FAE3722CC93BB004B06A8 /* BidManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidManager.swift; sourceTree = "<group>"; };
+		182FAE3922CC93BB004B06A8 /* SearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		182FAE3A22CC93BB004B06A8 /* ShopCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCollectionView.swift; sourceTree = "<group>"; };
+		182FAE3B22CC93BB004B06A8 /* DecorationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecorationView.swift; sourceTree = "<group>"; };
+		182FAE3C22CC93BB004B06A8 /* GoodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		182FAE3F22CC93BB004B06A8 /* SearchableNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchableNavigationController.swift; sourceTree = "<group>"; };
+		182FAE4022CC93BB004B06A8 /* SearchResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		182FAE4122CC93BB004B06A8 /* GoodDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodDetailTableViewController.swift; sourceTree = "<group>"; };
+		182FAE6322CCA219004B06A8 /* MyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
+		182FAE6422CCA219004B06A8 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		182FAE6822CCB4E9004B06A8 /* JXScratchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXScratchView.swift; sourceTree = "<group>"; };
+		182FAE6A22CCB668004B06A8 /* CardDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
+		187B09FF22C9A19A0018030F /* scratchCoupon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scratchCoupon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B0A0222C9A19A0018030F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187B0A0422C9A19A0018030F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187B0A0922C9A19C0018030F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187B0A0C22C9A19C0018030F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyMain.storyboard; sourceTree = "<group>"; };
+		187B0A0E22C9A19C0018030F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187B0A1422C9AC8F0018030F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		187B0A1622C9ACF40018030F /* HomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionView.swift; sourceTree = "<group>"; };
+		187B0A1822C9B11C0018030F /* RewardCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCardModel.swift; sourceTree = "<group>"; };
+		187B0A1A22C9B39A0018030F /* WiningHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiningHighlight.swift; sourceTree = "<group>"; };
+		18FCAEDD22CDB5240078A16D /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		18FCAEE422CDCC2F0078A16D /* RankTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTable.swift; sourceTree = "<group>"; };
+		18FCAEE622CDE24A0078A16D /* RankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCell.swift; sourceTree = "<group>"; };
+		18FCAEE822CEFB920078A16D /* JXMarqueeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXMarqueeView.swift; sourceTree = "<group>"; };
+		18FCAEEA22CEFC770078A16D /* RankView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
+		18FCAEEC22CEFDDE0078A16D /* MarqueeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeCell.swift; sourceTree = "<group>"; };
+		18FCAEEE22CF29040078A16D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		18FCAEF122CF53480078A16D /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		18FCAEF322DC18190078A16D /* RewardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRowView.swift; sourceTree = "<group>"; };
+		18FCAEF522DC1F780078A16D /* UserStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStateModel.swift; sourceTree = "<group>"; };
+		18FCAEF722DC20F10078A16D /* ScratchBtnStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchBtnStackView.swift; sourceTree = "<group>"; };
+		18FCAEFF22DD68130078A16D /* CouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponModel.swift; sourceTree = "<group>"; };
+		18FCAF0122DD8D280078A16D /* MeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeCell.swift; sourceTree = "<group>"; };
+		3322448294B849C9D8A2BBE3 /* Pods-scratchCoupon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scratchCoupon.release.xcconfig"; path = "Target Support Files/Pods-scratchCoupon/Pods-scratchCoupon.release.xcconfig"; sourceTree = "<group>"; };
+		5814533935FC7150304FC2A8 /* Pods_scratchCoupon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scratchCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53A640EAE50407A2542E5E7 /* Pods-scratchCoupon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scratchCoupon.debug.xcconfig"; path = "Target Support Files/Pods-scratchCoupon/Pods-scratchCoupon.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187B09FC22C9A19A0018030F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C41164903A03FA1992A26FF /* Pods_scratchCoupon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1823FBCA22CB004700C40DF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18FCAEF522DC1F780078A16D /* UserStateModel.swift */,
+				18FCAEFF22DD68130078A16D /* CouponModel.swift */,
+				18FCAEEE22CF29040078A16D /* File.swift */,
+				18FCAEDF22CDCBF70078A16D /* Rank */,
+				182FAD2422CC8C9B004B06A8 /* Common */,
+				182FADE122CC932D004B06A8 /* MyExtension.swift */,
+				1823FBCE22CB012B00C40DF6 /* Tabbar */,
+				1823FBCB22CB005400C40DF6 /* Home */,
+				1823FBCC22CB005B00C40DF6 /* Shop */,
+				1823FBCD22CB006400C40DF6 /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1823FBCB22CB005400C40DF6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1823FBF422CB278F00C40DF6 /* Models */,
+				1823FBF322CB278100C40DF6 /* ViewModels */,
+				1823FBF222CB277700C40DF6 /* ViewControllers */,
+				1823FBF122CB276E00C40DF6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1823FBCC22CB005B00C40DF6 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				1823FBF622CB279A00C40DF6 /* Models */,
+				1823FBF822CB279A00C40DF6 /* ViewModels */,
+				1823FBF522CB279A00C40DF6 /* ViewControllers */,
+				1823FBF722CB279A00C40DF6 /* View */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		1823FBCD22CB006400C40DF6 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1823FBFA22CB279C00C40DF6 /* Models */,
+				1823FBFB22CB279C00C40DF6 /* ViewModels */,
+				1823FBF922CB279C00C40DF6 /* ViewControllers */,
+				1823FBFC22CB279D00C40DF6 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1823FBCE22CB012B00C40DF6 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				1823FBCF22CB012B00C40DF6 /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		1823FBF122CB276E00C40DF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18FCAEF722DC20F10078A16D /* ScratchBtnStackView.swift */,
+				18FCAEEA22CEFC770078A16D /* RankView.swift */,
+				18FCAEEC22CEFDDE0078A16D /* MarqueeCell.swift */,
+				1823FC0522CB4DE400C40DF6 /* ScratchCell.swift */,
+				1823FC0322CB498500C40DF6 /* BannerCell.swift */,
+				1823FBFF22CB44CF00C40DF6 /* HomeTable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1823FBF222CB277700C40DF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1823FBF322CB278100C40DF6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1823FBF422CB278F00C40DF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1823FBF522CB279A00C40DF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1823FBF622CB279A00C40DF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1823FBF722CB279A00C40DF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1823FBF822CB279A00C40DF6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1823FBF922CB279C00C40DF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1823FBFA22CB279C00C40DF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1823FBFB22CB279C00C40DF6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1823FBFC22CB279D00C40DF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18FCAF0122DD8D280078A16D /* MeCell.swift */,
+				182FAD2122CB5B94004B06A8 /* MeTable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		182FAD2422CC8C9B004B06A8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				182FAD2522CC8C9B004B06A8 /* ViewModel */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		182FAD2522CC8C9B004B06A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		182FADE322CC9380004B06A8 /* UUShop */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE2B22CC93BB004B06A8 /* Common */,
+				182FAE0422CC939C004B06A8 /* Home */,
+				182FADED22CC939C004B06A8 /* Me */,
+				182FADE422CC939C004B06A8 /* Notification */,
+				182FADF422CC939C004B06A8 /* OneDollar */,
+				182FAE0D22CC939C004B06A8 /* Shop */,
+				182FADFD22CC939C004B06A8 /* ShoppingCart */,
+			);
+			path = UUShop;
+			sourceTree = "<group>";
+		};
+		182FADE422CC939C004B06A8 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				182FADE522CC939C004B06A8 /* ViewModels */,
+				182FADE622CC939C004B06A8 /* ViewControllers */,
+				182FADE922CC939C004B06A8 /* Views */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		182FADE522CC939C004B06A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		182FADE622CC939C004B06A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182FADE722CC939C004B06A8 /* ReceiveRedEnvelopesViewController.swift */,
+				182FADE822CC939C004B06A8 /* NotificationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		182FADE922CC939C004B06A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182FADEA22CC939C004B06A8 /* NotificationSwitchTableViewCell.swift */,
+				182FADEB22CC939C004B06A8 /* NotificationHeaderView.swift */,
+				182FADEC22CC939C004B06A8 /* NotifcationItemTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		182FADED22CC939C004B06A8 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				182FADEE22CC939C004B06A8 /* ViewControllers */,
+				182FADF122CC939C004B06A8 /* Views */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		182FADEE22CC939C004B06A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182FADEF22CC939C004B06A8 /* MeViewController.swift */,
+				182FADF022CC939C004B06A8 /* BuyListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		182FADF122CC939C004B06A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182FADF222CC939C004B06A8 /* MeTableView.swift */,
+				182FADF322CC939C004B06A8 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		182FADF422CC939C004B06A8 /* OneDollar */ = {
+			isa = PBXGroup;
+			children = (
+				182FADF522CC939C004B06A8 /* ViewModels */,
+				182FADF622CC939C004B06A8 /* ViewControllers */,
+				182FADF922CC939C004B06A8 /* Views */,
+			);
+			path = OneDollar;
+			sourceTree = "<group>";
+		};
+		182FADF522CC939C004B06A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		182FADF622CC939C004B06A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182FADF722CC939C004B06A8 /* OneDollarDetailTableViewController.swift */,
+				182FADF822CC939C004B06A8 /* OneDollarCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		182FADF922CC939C004B06A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182FADFA22CC939C004B06A8 /* OneDollarGoodCollectionViewCell.swift */,
+				182FADFB22CC939C004B06A8 /* OneDollarLayout.swift */,
+				182FADFC22CC939C004B06A8 /* OneDollarCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		182FADFD22CC939C004B06A8 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				182FADFE22CC939C004B06A8 /* ViewModels */,
+				182FADFF22CC939C004B06A8 /* ViewControllers */,
+				182FAE0222CC939C004B06A8 /* Views */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		182FADFE22CC939C004B06A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		182FADFF22CC939C004B06A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE0022CC939C004B06A8 /* PayViewController.swift */,
+				182FAE0122CC939C004B06A8 /* CartTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		182FAE0222CC939C004B06A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE0322CC939C004B06A8 /* CartGoodTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		182FAE0422CC939C004B06A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE0522CC939C004B06A8 /* ViewModels */,
+				182FAE0722CC939C004B06A8 /* ViewControllers */,
+				182FAE0922CC939C004B06A8 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		182FAE0522CC939C004B06A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE0622CC939C004B06A8 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		182FAE0722CC939C004B06A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE0822CC939C004B06A8 /* HomeCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		182FAE0922CC939C004B06A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18FCAEF322DC18190078A16D /* RewardRowView.swift */,
+				182FAE0A22CC939C004B06A8 /* HomeHeaderCollectionReusableView.swift */,
+				182FAE0B22CC939C004B06A8 /* BannerCollectionViewCell.swift */,
+				182FAE0C22CC939C004B06A8 /* HomeLayout.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		182FAE0D22CC939C004B06A8 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE0E22CC939C004B06A8 /* ViewModels */,
+				182FAE0F22CC939C004B06A8 /* ViewControllers */,
+				182FAE1122CC939C004B06A8 /* ShopViewModel.swift */,
+				182FAE1222CC939C004B06A8 /* Views */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		182FAE0E22CC939C004B06A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		182FAE0F22CC939C004B06A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE1022CC939C004B06A8 /* ShopViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		182FAE1222CC939C004B06A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		182FAE2B22CC93BB004B06A8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE6222CCA219004B06A8 /* Service */,
+				182FAE2C22CC93BB004B06A8 /* ViewModel */,
+				182FAE3022CC93BB004B06A8 /* Model */,
+				182FAE3822CC93BB004B06A8 /* View */,
+				182FAE3E22CC93BB004B06A8 /* ViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		182FAE2C22CC93BB004B06A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		182FAE3022CC93BB004B06A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE3122CC93BB004B06A8 /* GoodModel.swift */,
+				182FAE3222CC93BB004B06A8 /* OrderModel.swift */,
+				182FAE3322CC93BB004B06A8 /* OneDollarGoodModel.swift */,
+				182FAE3422CC93BB004B06A8 /* UserModel.swift */,
+				182FAE3522CC93BB004B06A8 /* CartModel.swift */,
+				182FAE3622CC93BB004B06A8 /* CollectionModel.swift */,
+				182FAE3722CC93BB004B06A8 /* BidManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		182FAE3822CC93BB004B06A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE3922CC93BB004B06A8 /* SearchTextField.swift */,
+				182FAE3A22CC93BB004B06A8 /* ShopCollectionView.swift */,
+				182FAE3B22CC93BB004B06A8 /* DecorationView.swift */,
+				182FAE3C22CC93BB004B06A8 /* GoodCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		182FAE3E22CC93BB004B06A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE3F22CC93BB004B06A8 /* SearchableNavigationController.swift */,
+				182FAE4022CC93BB004B06A8 /* SearchResultViewController.swift */,
+				182FAE4122CC93BB004B06A8 /* GoodDetailTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		182FAE6222CCA219004B06A8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE6322CCA219004B06A8 /* MyService.swift */,
+				182FAE6422CCA219004B06A8 /* Network.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		187B09F622C9A19A0018030F = {
+			isa = PBXGroup;
+			children = (
+				187B0A0122C9A19A0018030F /* scratchCoupon */,
+				187B0A0022C9A19A0018030F /* Products */,
+				3392BE7E8A1FFCE1D34872BD /* Pods */,
+				DCA4038E6CF9787E11E3D465 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187B0A0022C9A19A0018030F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187B09FF22C9A19A0018030F /* scratchCoupon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187B0A0122C9A19A0018030F /* scratchCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				182FAE6A22CCB668004B06A8 /* CardDetailViewController.swift */,
+				18FCAEDD22CDB5240078A16D /* NavigationController.swift */,
+				182FAE6822CCB4E9004B06A8 /* JXScratchView.swift */,
+				18FCAEE822CEFB920078A16D /* JXMarqueeView.swift */,
+				182FADE322CC9380004B06A8 /* UUShop */,
+				1823FBCA22CB004700C40DF6 /* Classes */,
+				187B0A0222C9A19A0018030F /* AppDelegate.swift */,
+				187B0A1422C9AC8F0018030F /* HomeViewController.swift */,
+				187B0A1A22C9B39A0018030F /* WiningHighlight.swift */,
+				187B0A1622C9ACF40018030F /* HomeCollectionView.swift */,
+				187B0A1822C9B11C0018030F /* RewardCardModel.swift */,
+				187B0A0422C9A19A0018030F /* ViewController.swift */,
+				187B0A0922C9A19C0018030F /* Assets.xcassets */,
+				187B0A0B22C9A19C0018030F /* MyMain.storyboard */,
+				1823FC0122CB454F00C40DF6 /* LaunchScreen.storyboard */,
+				187B0A0E22C9A19C0018030F /* Info.plist */,
+			);
+			path = scratchCoupon;
+			sourceTree = "<group>";
+		};
+		18FCAEDF22CDCBF70078A16D /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				18FCAEE322CDCC180078A16D /* Views */,
+				18FCAEE022CDCC100078A16D /* Models */,
+				18FCAEE222CDCC100078A16D /* ViewModels */,
+				18FCAEE122CDCC100078A16D /* ViewControllers */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		18FCAEE022CDCC100078A16D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FCAEE122CDCC100078A16D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18FCAEF122CF53480078A16D /* RankViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18FCAEE222CDCC100078A16D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18FCAEE322CDCC180078A16D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18FCAEE622CDE24A0078A16D /* RankCell.swift */,
+				18FCAEE422CDCC2F0078A16D /* RankTable.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3392BE7E8A1FFCE1D34872BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D53A640EAE50407A2542E5E7 /* Pods-scratchCoupon.debug.xcconfig */,
+				3322448294B849C9D8A2BBE3 /* Pods-scratchCoupon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCA4038E6CF9787E11E3D465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5814533935FC7150304FC2A8 /* Pods_scratchCoupon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187B09FE22C9A19A0018030F /* scratchCoupon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187B0A1122C9A19C0018030F /* Build configuration list for PBXNativeTarget "scratchCoupon" */;
+			buildPhases = (
+				4DF1F2E1A49E12482ADB85F0 /* [CP] Check Pods Manifest.lock */,
+				187B09FB22C9A19A0018030F /* Sources */,
+				187B09FC22C9A19A0018030F /* Frameworks */,
+				187B09FD22C9A19A0018030F /* Resources */,
+				66445604DDD3B0E2A711A96E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scratchCoupon;
+			productName = scratchCoupon;
+			productReference = 187B09FF22C9A19A0018030F /* scratchCoupon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187B09F722C9A19A0018030F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = com.;
+				TargetAttributes = {
+					187B09FE22C9A19A0018030F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 187B09FA22C9A19A0018030F /* Build configuration list for PBXProject "scratchCoupon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187B09F622C9A19A0018030F;
+			productRefGroup = 187B0A0022C9A19A0018030F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187B09FE22C9A19A0018030F /* scratchCoupon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187B09FD22C9A19A0018030F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B0A0D22C9A19C0018030F /* MyMain.storyboard in Resources */,
+				187B0A0A22C9A19C0018030F /* Assets.xcassets in Resources */,
+				1823FC0222CB454F00C40DF6 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DF1F2E1A49E12482ADB85F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-scratchCoupon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66445604DDD3B0E2A711A96E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scratchCoupon/Pods-scratchCoupon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scratchCoupon/Pods-scratchCoupon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-scratchCoupon/Pods-scratchCoupon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187B09FB22C9A19A0018030F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FCAEF622DC1F780078A16D /* UserStateModel.swift in Sources */,
+				182FAE1822CC939D004B06A8 /* MeViewController.swift in Sources */,
+				182FAE5222CC93BB004B06A8 /* GoodDetailTableViewController.swift in Sources */,
+				182FAE4A22CC93BB004B06A8 /* BidManager.swift in Sources */,
+				182FADE222CC932D004B06A8 /* MyExtension.swift in Sources */,
+				182FAE1D22CC939D004B06A8 /* OneDollarCollectionViewController.swift in Sources */,
+				182FAE1F22CC939D004B06A8 /* OneDollarLayout.swift in Sources */,
+				182FAE2122CC939D004B06A8 /* PayViewController.swift in Sources */,
+				187B0A1922C9B11C0018030F /* RewardCardModel.swift in Sources */,
+				182FAE1622CC939D004B06A8 /* NotificationHeaderView.swift in Sources */,
+				182FAE1722CC939D004B06A8 /* NotifcationItemTableViewCell.swift in Sources */,
+				182FAE2A22CC939D004B06A8 /* ShopViewModel.swift in Sources */,
+				18FCAEF422DC18190078A16D /* RewardRowView.swift in Sources */,
+				182FAE4622CC93BB004B06A8 /* OneDollarGoodModel.swift in Sources */,
+				182FAE6522CCA219004B06A8 /* MyService.swift in Sources */,
+				182FAE4C22CC93BB004B06A8 /* ShopCollectionView.swift in Sources */,
+				18FCAEEF22CF29040078A16D /* File.swift in Sources */,
+				182FAE2822CC939D004B06A8 /* HomeLayout.swift in Sources */,
+				182FAE1C22CC939D004B06A8 /* OneDollarDetailTableViewController.swift in Sources */,
+				182FAE2222CC939D004B06A8 /* CartTableViewController.swift in Sources */,
+				18FCAEF222CF53480078A16D /* RankViewController.swift in Sources */,
+				187B0A0522C9A19A0018030F /* ViewController.swift in Sources */,
+				18FCAEF822DC20F10078A16D /* ScratchBtnStackView.swift in Sources */,
+				18FCAF0222DD8D280078A16D /* MeCell.swift in Sources */,
+				182FAE2922CC939D004B06A8 /* ShopViewController.swift in Sources */,
+				182FAE4422CC93BB004B06A8 /* GoodModel.swift in Sources */,
+				182FAE1E22CC939D004B06A8 /* OneDollarGoodCollectionViewCell.swift in Sources */,
+				182FAE4922CC93BB004B06A8 /* CollectionModel.swift in Sources */,
+				18FCAEDE22CDB5240078A16D /* NavigationController.swift in Sources */,
+				182FAE2722CC939D004B06A8 /* BannerCollectionViewCell.swift in Sources */,
+				182FAE4722CC93BB004B06A8 /* UserModel.swift in Sources */,
+				187B0A1B22C9B39A0018030F /* WiningHighlight.swift in Sources */,
+				182FAE4E22CC93BB004B06A8 /* GoodCollectionViewCell.swift in Sources */,
+				182FAE6622CCA219004B06A8 /* Network.swift in Sources */,
+				182FAE5022CC93BB004B06A8 /* SearchableNavigationController.swift in Sources */,
+				18FCAEE722CDE24A0078A16D /* RankCell.swift in Sources */,
+				182FAE2622CC939D004B06A8 /* HomeHeaderCollectionReusableView.swift in Sources */,
+				182FAE4B22CC93BB004B06A8 /* SearchTextField.swift in Sources */,
+				182FAE6922CCB4EA004B06A8 /* JXScratchView.swift in Sources */,
+				182FAE2522CC939D004B06A8 /* HomeCollectionViewController.swift in Sources */,
+				182FAE4D22CC93BB004B06A8 /* DecorationView.swift in Sources */,
+				182FAE2422CC939D004B06A8 /* HomeViewModel.swift in Sources */,
+				1823FC0022CB44CF00C40DF6 /* HomeTable.swift in Sources */,
+				18FCAEEB22CEFC770078A16D /* RankView.swift in Sources */,
+				182FAE5122CC93BB004B06A8 /* SearchResultViewController.swift in Sources */,
+				187B0A0322C9A19A0018030F /* AppDelegate.swift in Sources */,
+				18FCAEE522CDCC2F0078A16D /* RankTable.swift in Sources */,
+				187B0A1522C9AC8F0018030F /* HomeViewController.swift in Sources */,
+				182FAE6B22CCB669004B06A8 /* CardDetailViewController.swift in Sources */,
+				182FAD2222CB5B94004B06A8 /* MeTable.swift in Sources */,
+				187B0A1722C9ACF40018030F /* HomeCollectionView.swift in Sources */,
+				182FAE1322CC939D004B06A8 /* ReceiveRedEnvelopesViewController.swift in Sources */,
+				182FAE2022CC939D004B06A8 /* OneDollarCollectionView.swift in Sources */,
+				182FAE1422CC939D004B06A8 /* NotificationViewController.swift in Sources */,
+				182FAE1922CC939D004B06A8 /* BuyListViewController.swift in Sources */,
+				182FAE4822CC93BB004B06A8 /* CartModel.swift in Sources */,
+				182FAE1B22CC939D004B06A8 /* LoginView.swift in Sources */,
+				1823FBD022CB012B00C40DF6 /* TabbarViewController.swift in Sources */,
+				18FCAEED22CEFDDE0078A16D /* MarqueeCell.swift in Sources */,
+				1823FC0622CB4DE400C40DF6 /* ScratchCell.swift in Sources */,
+				18FCAF0022DD68130078A16D /* CouponModel.swift in Sources */,
+				182FAE1A22CC939D004B06A8 /* MeTableView.swift in Sources */,
+				18FCAEE922CEFB920078A16D /* JXMarqueeView.swift in Sources */,
+				182FAE1522CC939D004B06A8 /* NotificationSwitchTableViewCell.swift in Sources */,
+				1823FC0422CB498500C40DF6 /* BannerCell.swift in Sources */,
+				182FAE4522CC93BB004B06A8 /* OrderModel.swift in Sources */,
+				182FAE2322CC939D004B06A8 /* CartGoodTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187B0A0B22C9A19C0018030F /* MyMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187B0A0C22C9A19C0018030F /* Base */,
+			);
+			name = MyMain.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187B0A0F22C9A19C0018030F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187B0A1022C9A19C0018030F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187B0A1222C9A19C0018030F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53A640EAE50407A2542E5E7 /* Pods-scratchCoupon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UAVKYZ79Z3;
+				INFOPLIST_FILE = scratchCoupon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestonsale.scratchCoupon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		187B0A1322C9A19C0018030F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3322448294B849C9D8A2BBE3 /* Pods-scratchCoupon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UAVKYZ79Z3;
+				INFOPLIST_FILE = scratchCoupon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestonsale.scratchCoupon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187B09FA22C9A19A0018030F /* Build configuration list for PBXProject "scratchCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B0A0F22C9A19C0018030F /* Debug */,
+				187B0A1022C9A19C0018030F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187B0A1122C9A19C0018030F /* Build configuration list for PBXNativeTarget "scratchCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B0A1222C9A19C0018030F /* Debug */,
+				187B0A1322C9A19C0018030F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187B09F722C9A19A0018030F /* Project object */;
+}

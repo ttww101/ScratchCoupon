@@ -1,0 +1,124 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BEMCheckBox (1.4.1)
+  - DynamicColor (4.1.0)
+  - GMStepper (2.2)
+  - ImageSlideshow (1.8.0):
+    - ImageSlideshow/Core (= 1.8.0)
+  - ImageSlideshow/Core (1.8.0)
+  - ImageSlideshow/Kingfisher (1.8.0):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - JXSegmentedView (0.0.19)
+  - Kanna (5.0.0)
+  - Kingfisher (5.6.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RTRootNavigationController (0.7.1):
+    - RTRootNavigationController/Core (= 0.7.1)
+  - RTRootNavigationController/Core (0.7.1)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - Shallows (0.10.0)
+  - SnapKit (5.0.0)
+  - SnappingStepper (3.0.0):
+    - DynamicColor (~> 4.0)
+  - SVProgressHUD (2.2.5)
+  - SwifterSwift (5.0.0):
+    - SwifterSwift/AppKit (= 5.0.0)
+    - SwifterSwift/CoreGraphics (= 5.0.0)
+    - SwifterSwift/CoreLocation (= 5.0.0)
+    - SwifterSwift/Dispatch (= 5.0.0)
+    - SwifterSwift/Foundation (= 5.0.0)
+    - SwifterSwift/MapKit (= 5.0.0)
+    - SwifterSwift/SpriteKit (= 5.0.0)
+    - SwifterSwift/SwiftStdlib (= 5.0.0)
+    - SwifterSwift/UIKit (= 5.0.0)
+  - SwifterSwift/AppKit (5.0.0)
+  - SwifterSwift/CoreGraphics (5.0.0)
+  - SwifterSwift/CoreLocation (5.0.0)
+  - SwifterSwift/Dispatch (5.0.0)
+  - SwifterSwift/Foundation (5.0.0)
+  - SwifterSwift/MapKit (5.0.0)
+  - SwifterSwift/SpriteKit (5.0.0)
+  - SwifterSwift/SwiftStdlib (5.0.0)
+  - SwifterSwift/UIKit (5.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Alamofire
+  - BEMCheckBox
+  - GMStepper
+  - ImageSlideshow (~> 1.8)
+  - ImageSlideshow/Kingfisher
+  - JXSegmentedView
+  - Kanna (~> 5.0.0)
+  - Moya (~> 13.0)
+  - RTRootNavigationController
+  - RxCocoa (~> 5.0)
+  - RxSwift (~> 5.0)
+  - Shallows (~> 0.10.0)
+  - SnapKit
+  - SnappingStepper (~> 3.0.0)
+  - SVProgressHUD
+  - SwifterSwift
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BEMCheckBox
+    - DynamicColor
+    - GMStepper
+    - ImageSlideshow
+    - JXSegmentedView
+    - Kanna
+    - Kingfisher
+    - Moya
+    - Result
+    - RTRootNavigationController
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Shallows
+    - SnapKit
+    - SnappingStepper
+    - SVProgressHUD
+    - SwifterSwift
+    - YYKit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  DynamicColor: e72fcf4174518c514e862bb4bdea794c1865b412
+  GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
+  ImageSlideshow: 197130fe349aafa9446f54277c792551d41eadf9
+  JXSegmentedView: 6e22381bd1e6f0767fc078bef1947b13b2d337a1
+  Kanna: a32875df62975f8f4b871e933b4ea1a5c3b8be0f
+  Kingfisher: 1a50df6880a60bae26f3e21a0df3d17b892f5e0b
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  Shallows: be3882d8ecf8b1e8b71deae8b1cb74173cf3e355
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SnappingStepper: 57c41c94d3fe2665c5601d61d4dcf8f689b957ab
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: b8dc5855868c3093eb76a093fbf595ba6cf8cf4c
+
+COCOAPODS: 1.7.2

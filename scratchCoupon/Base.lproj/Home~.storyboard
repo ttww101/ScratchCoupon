@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--商城-->
+        <scene sceneID="sIH-Nu-rah">
+            <objects>
+                <viewController id="Zdc-Un-pJw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lst-by-sQB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ca4-dW-PVb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="商城" image="card_home_icon021" selectedImage="card_home_icon02" id="306-qt-xAc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gk4-Ai-Rkn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-662" y="232"/>
+        </scene>
+        <!--個人-->
+        <scene sceneID="Mdx-zw-yzA">
+            <objects>
+                <viewController id="tUl-yw-dH8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J1z-0U-dNh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7xy-wk-vPR">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="184" id="5VW-FT-iEw">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="184"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5VW-FT-iEw" id="3AG-zb-ZnE">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="183.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nnC-Oj-Y03">
+                                                    <rect key="frame" x="20" y="11" width="374" height="128"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="nnC-Oj-Y03" secondAttribute="trailing" id="A4t-4T-WpK"/>
+                                                <constraint firstItem="nnC-Oj-Y03" firstAttribute="leading" secondItem="3AG-zb-ZnE" secondAttribute="leadingMargin" id="ZED-RH-T8g"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="nnC-Oj-Y03" secondAttribute="bottom" constant="34" id="bqp-Fm-U3A"/>
+                                                <constraint firstItem="nnC-Oj-Y03" firstAttribute="top" secondItem="3AG-zb-ZnE" secondAttribute="topMargin" id="gql-Gm-jd9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7xy-wk-vPR" firstAttribute="leading" secondItem="awt-TQ-hpR" secondAttribute="leading" id="1ce-Ka-nVH"/>
+                            <constraint firstItem="awt-TQ-hpR" firstAttribute="bottom" secondItem="7xy-wk-vPR" secondAttribute="bottom" id="IE0-gO-Qlz"/>
+                            <constraint firstItem="7xy-wk-vPR" firstAttribute="trailing" secondItem="awt-TQ-hpR" secondAttribute="trailing" id="KLK-mB-Sqv"/>
+                            <constraint firstItem="7xy-wk-vPR" firstAttribute="top" secondItem="awt-TQ-hpR" secondAttribute="top" id="LIy-Hd-9IR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="awt-TQ-hpR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="個人" image="card_home_icon041" selectedImage="card_home_icon04" id="5mo-AS-VeO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wkW-nQ-Ypf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-771.01449275362324" y="1595.7589285714284"/>
+        </scene>
+        <!--排行-->
+        <scene sceneID="cyd-Cz-zTA">
+            <objects>
+                <viewController id="CZM-T3-eZQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n2i-5U-JCg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="499-pH-C4c">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nZH-9D-CtZ">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nZH-9D-CtZ" id="XlU-SI-GVS">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CXJ-o4-kLr" firstAttribute="trailing" secondItem="499-pH-C4c" secondAttribute="trailing" id="B3B-97-bbU"/>
+                            <constraint firstItem="499-pH-C4c" firstAttribute="top" secondItem="CXJ-o4-kLr" secondAttribute="top" id="Daf-QN-oQT"/>
+                            <constraint firstItem="CXJ-o4-kLr" firstAttribute="bottom" secondItem="499-pH-C4c" secondAttribute="bottom" id="NdK-dS-ubW"/>
+                            <constraint firstItem="499-pH-C4c" firstAttribute="leading" secondItem="CXJ-o4-kLr" secondAttribute="leading" id="WJi-13-Ynm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CXJ-o4-kLr"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="排行" image="card_home_icon031" selectedImage="card_home_icon03" id="mYY-Nh-Zja"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q3m-43-CbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-662" y="879"/>
+        </scene>
+        <!--首頁-->
+        <scene sceneID="ZWX-GC-OEg">
+            <objects>
+                <viewController id="M8o-2w-y6v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DJF-c8-u9Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7h3-bW-iL6">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="223" id="Hkl-kb-dt7">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="223"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hkl-kb-dt7" id="hy3-6p-DUd">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="222.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_home_banner" translatesAutoresizingMaskIntoConstraints="NO" id="l5n-7x-jlH">
+                                                    <rect key="frame" x="20" y="11" width="374" height="201"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="l5n-7x-jlH" secondAttribute="trailing" id="NOf-ck-jRO"/>
+                                                <constraint firstItem="l5n-7x-jlH" firstAttribute="top" secondItem="hy3-6p-DUd" secondAttribute="topMargin" id="Q15-g7-04P"/>
+                                                <constraint firstItem="l5n-7x-jlH" firstAttribute="leading" secondItem="hy3-6p-DUd" secondAttribute="leadingMargin" id="Z6z-lT-K1o"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="l5n-7x-jlH" secondAttribute="bottom" id="lhw-uz-vef"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="214" id="iSU-I5-rdY">
+                                        <rect key="frame" x="0.0" y="251" width="414" height="214"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iSU-I5-rdY" id="Kxm-gL-R3M">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="213.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wvM-4j-hql">
+                                                    <rect key="frame" x="20" y="11" width="374" height="192"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_home_g01" translatesAutoresizingMaskIntoConstraints="NO" id="dI2-8T-WvX">
+                                                            <rect key="frame" x="0.0" y="0.0" width="124.5" height="192"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_home_g02" translatesAutoresizingMaskIntoConstraints="NO" id="Lqq-MJ-zra">
+                                                            <rect key="frame" x="124.5" y="0.0" width="125" height="192"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_home_g03" translatesAutoresizingMaskIntoConstraints="NO" id="hNy-dL-1ER">
+                                                            <rect key="frame" x="249.5" y="0.0" width="124.5" height="192"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="wvM-4j-hql" firstAttribute="leading" secondItem="Kxm-gL-R3M" secondAttribute="leadingMargin" id="2xj-wF-tim"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="wvM-4j-hql" secondAttribute="bottom" id="5Tz-CK-8h3"/>
+                                                <constraint firstItem="wvM-4j-hql" firstAttribute="top" secondItem="Kxm-gL-R3M" secondAttribute="topMargin" id="9wV-Po-FMJ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="wvM-4j-hql" secondAttribute="trailing" id="ior-p6-AM0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7h3-bW-iL6" firstAttribute="top" secondItem="yk3-Dn-yaW" secondAttribute="top" id="1pk-uN-VhA"/>
+                            <constraint firstItem="yk3-Dn-yaW" firstAttribute="trailing" secondItem="7h3-bW-iL6" secondAttribute="trailing" id="3wJ-TI-Eec"/>
+                            <constraint firstItem="7h3-bW-iL6" firstAttribute="leading" secondItem="yk3-Dn-yaW" secondAttribute="leading" id="D2d-ao-Sar"/>
+                            <constraint firstItem="yk3-Dn-yaW" firstAttribute="bottom" secondItem="7h3-bW-iL6" secondAttribute="bottom" id="T5A-ac-yqQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yk3-Dn-yaW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首頁" image="card_home_icon011" selectedImage="card_home_icon01" id="3bv-vN-iwW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7b-Mp-77D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-662.31884057971024" y="-411.16071428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Lcx-4y-8hz">
+            <objects>
+                <tabBarController id="kat-Ad-fV3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tlh-iV-FO5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="M8o-2w-y6v" kind="relationship" relationship="viewControllers" id="y33-zm-Aai"/>
+                        <segue destination="Zdc-Un-pJw" kind="relationship" relationship="viewControllers" id="akf-tL-wvO"/>
+                        <segue destination="CZM-T3-eZQ" kind="relationship" relationship="viewControllers" id="KwI-L3-DmD"/>
+                        <segue destination="tUl-yw-dH8" kind="relationship" relationship="viewControllers" id="rcr-np-cEQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NC8-T6-7EV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1582" y="332"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="card_home_banner" width="1242" height="695"/>
+        <image name="card_home_g01" width="355" height="405"/>
+        <image name="card_home_g02" width="355" height="405"/>
+        <image name="card_home_g03" width="355" height="405"/>
+        <image name="card_home_icon01" width="28" height="28"/>
+        <image name="card_home_icon011" width="28" height="28"/>
+        <image name="card_home_icon02" width="28" height="28"/>
+        <image name="card_home_icon021" width="28" height="28"/>
+        <image name="card_home_icon03" width="28" height="28"/>
+        <image name="card_home_icon031" width="28" height="28"/>
+        <image name="card_home_icon04" width="28" height="28"/>
+        <image name="card_home_icon041" width="28" height="28"/>
+    </resources>
+</document>
